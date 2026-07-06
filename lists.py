@@ -13,12 +13,14 @@
 # print(len(thislist))
 # print(type(thislist))
 
+#ACCESS DATA
 # thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 # print(thislist[2:5])
 # print(thislist[:4]) #print all except kiwi
 # print(thislist[2:]) #prints all from cherry to end
 # print(thislist[-4:-1]) #reverse
 
+#IF DATA PRESENT IN LIST
 # thislist = ["apple", "banana", "cherry"]
 # if "apple" in thislist:
 #     print("Item does exist.")
