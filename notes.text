@@ -4,3 +4,23 @@
 {} -> dictionary
 
 LIST
+
+
+TUPLE
+ 
+
+SETS
+set1 = {"apple", "banana", "cherry"}
+set2 = {"apple", "banana", "cherry"}
+
+set1.add("orange") -> add data to set
+set1.remove("apple") -> remove data from set
+set3 = set1.union(set2) -> returns a new set with all items from both sets
+set3 = set1.update(set2) -> inserts all items from one set into another (does not create new set)
+set3 = set1.intersection(set2) -> returns a new set, that only contains the items that are present in both sets
+set3 = set1.difference(set2) -> returns a new set, containing only items from first set not present in other set.
+set3 = set1.symmetric_difference(set2) -> keeps only the elements that are NOT present in both sets
+del set_name -> deletes set
+set_name.discard("apple") -> remove data from set
+
+DICTIONARY
