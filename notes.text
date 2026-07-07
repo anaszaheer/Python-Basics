@@ -44,3 +44,5 @@ thisdict.pop("brand") -> remove item
 thisdict.popitem() -> removes the last inserted item
 del thisdict["model"] -> removes the item with the specified key name
 thisdict.clear() -> empties the dictionary
+mydict = thisdict.copy() -> makes copy of dictionary
+mydict = dict(thisdict) -> makes copy of dictionary using built-in dict function
