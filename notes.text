@@ -3,12 +3,15 @@
 {} -> set
 {} -> dictionary
 
+///////////////////////
 LIST
 
 
+///////////////////////
 TUPLE
  
 
+///////////////////////
 SETS
 set1 = {"apple", "banana", "cherry"}
 set2 = {"apple", "banana", "cherry"}
@@ -23,4 +26,17 @@ set3 = set1.symmetric_difference(set2) -> keeps only the elements that are NOT p
 del set_name -> deletes set
 set_name.discard("apple") -> remove data from set
 
+
+///////////////////////
 DICTIONARY
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+thisdict.keys() -> gets all keys
+thisdict.values() -> gets all 
+thisdict.items() -> returns items in a list of tuples
+thisdict["wheels"] = 4 -> add value
+thisdict["wheels"] = 2 -> change value
