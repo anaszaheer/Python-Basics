@@ -40,3 +40,7 @@ thisdict.values() -> gets all
 thisdict.items() -> returns items in a list of tuples
 thisdict["wheels"] = 4 -> add value
 thisdict["wheels"] = 2 -> change value
+thisdict.pop("brand") -> remove item
+thisdict.popitem() -> removes the last inserted item
+del thisdict["model"] -> removes the item with the specified key name
+thisdict.clear() -> empties the dictionary

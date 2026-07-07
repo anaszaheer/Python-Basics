@@ -49,6 +49,32 @@
 # thisdict.update({"year": 2020})
 # print(thisdict)
 
+#REMOVE ITEMS
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.pop("model")
+# thisdict.popitem() #removes the last inserted item
+# del thisdict["model"] #removes the item with specified key name
+# thisdict.clear() #empites the dictionary
+# print(thisdict)
+
+#LOOP
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# for x in thisdict:
+#   print(x)
+#   print(thisdict[x])
+# for x in thisdict.values():
+#     print(x)
+# for x in thisdict.keys():
+#     print(x)
+
 #IF EXISTS
 # thisdict = {
 #   "brand": "Ford",
